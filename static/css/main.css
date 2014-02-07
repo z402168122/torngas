@@ -1,0 +1,11 @@
+body{
+    padding-top: 70px;
+}
+.footer{
+    width: 100%;
+    position: absolute;
+    bottom:0;
+}
+.footer>p{
+    text-align: center;
+}

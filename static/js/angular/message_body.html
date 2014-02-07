@@ -1,0 +1,10 @@
+<div class="message">
+    <strong ng-class="{true: 'pull-right text-success', false: 'text-primary'}[message.isCurrentUser]">
+        {:message.user_name:} {:message.datetime:}</strong>
+
+    <div ng-class="{true: 'message-content clr', false: 'message-content'}[message.isCurrentUser]">
+        <p>
+            {:message.body:}
+        </p>
+    </div>
+</div>
